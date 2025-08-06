@@ -1,0 +1,8 @@
+local skyImageId = "YOUR_SKY_IMAGE_ID"
+local function changeSky()
+    local sky = Instance.new("Sky")
+    sky.SkyboxBk = "rbxassetid://" .. skyImageId
+    sky.Parent = game.Lighting
+end
+changeSky()
+print("El cielo ha sido cambiado a 'C00lkidd Sky' para todos los jugadores.")
